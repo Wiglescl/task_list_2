@@ -78,3 +78,45 @@ input[type=text] {
     border-radius: 5px;
     font-size: 18px;
 }
+
+
+
+
+
+
+.main__head {
+    background-color: #F4F2FE;
+    height: 60px;
+    border: 1px solid #CACACA;
+}
+
+
+.main__head-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    color: #6E6892;
+}
+
+.head__first-block {
+    display: flex;
+    gap: 50px;
+}
+
+.head__info-block {
+    display: flex;
+    gap: 220px;
+}
+
+
+
+
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    color: #6E6892;
+    border-bottom: 2px solid #CFCFCF;
+}
