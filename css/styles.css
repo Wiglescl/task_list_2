@@ -102,13 +102,14 @@ input[type=text] {
 .head__first-block {
     display: flex;
     gap: 50px;
+    width: 450px;
 }
 
 .head__info-block {
     display: flex;
     gap: 220px;
+    width: 350px;
 }
-
 
 
 
