@@ -121,3 +121,98 @@ input[type=text] {
     color: #6E6892;
     border-bottom: 2px solid #CFCFCF;
 }
+
+.elipsis__block {
+    cursor: pointer;
+    height: 30px;
+    width: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.elipsis__block-head {
+    cursor: pointer;
+    height: 30px;
+    width: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.ellipsis {
+    content: '';
+    display: block;
+    background-color: #ADA6A6;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.ellipsis::after {
+    content: '';
+    background-color: #ADA6A6;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    position: absolute;
+    top: -8px;
+}
+
+.ellipsis::before {
+    content: '';
+    background-color: #ADA6A6;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+}
+
+
+.elipsis__window-settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 60px;
+    border: 2px solid #8B83BA;
+    border-radius: 8px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+
+.elipsis__button {
+    background-color: white;
+    height: 100%;
+}
+
+.elipsis__button-edit {
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #ADA6A6;
+}
+
+.elipsis__button-edit:hover {
+    background-color: #F2F0F9;
+}
+
+
+.elipsis__button-delete {
+    border-radius:0 0 5px 5px ;
+    color: rgb(235, 70, 70);
+}
+
+.elipsis__button-delete:hover {
+    background-color: red;
+    color: white;
+}
